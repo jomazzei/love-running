@@ -168,6 +168,24 @@ hr {
     flex-wrap: wrap;
 }
 
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divisions over the background image */
+    border: 2px solid white;
+}
+
+/* Overrides the general style we applied to all h1,h2,h3 elements at the start */
+#times h3 {
+    color: #fafafa;
+}
+
 
 /* Footer */
 #social-networks {
